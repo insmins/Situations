@@ -36,7 +36,12 @@ h1 {
   text-shadow: 3px 3px 1px blue;
 }
 
-img {
+imgA {
   display: block;
-  margin: 0 auto;
+  margin: 10px 200px 20px 0px;
+}
+
+imgD {
+  display: block;
+  margin: 10px 0px 20px 200px;
 }
