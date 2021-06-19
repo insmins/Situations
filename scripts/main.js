@@ -1,2 +1,3 @@
 let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Bonjour, monde !';
+myHeading.textContent = 'Pokemon situations';
+alert('test')
