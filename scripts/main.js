@@ -50,7 +50,7 @@ function clic0() {
     ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
-  Score.textContent = String(score);
+  Score.textContent = "Score" + String(score);
 }
 
 
@@ -63,7 +63,7 @@ function clic05() {
     ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
-  Score.textContent = String(score);
+  Score.textContent = "Score" + String(score);
 }
 
 
@@ -77,7 +77,7 @@ function clic1() {
     ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
-  Score.textContent = String(score);
+  Score.textContent = "Score" + String(score);
 }
 
 
@@ -91,5 +91,5 @@ function clic2() {
     ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
-  Score.textContent = String(score);
+  Score.textContent = "Score" + String(score);
 }
