@@ -53,7 +53,7 @@ function rerandom() {
 }
 
 function clic0() {
-  let E = Reponse(indA, indD);
+  var E = Reponse(indA, indD);
   if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -67,7 +67,7 @@ function clic0() {
 
 
 function clic05() {
-  let E = Reponse(indA, indD);
+  var E = Reponse(indA, indD);
   if (E == 'Peu efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -82,7 +82,7 @@ function clic05() {
 
 
 function clic1() {
-  let E = Reponse(indA, indD);
+  var E = Reponse(indA, indD);
   if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -97,7 +97,7 @@ function clic1() {
 
 
 function clic2() {
-  let E = Reponse(indA, indD);
+  var E = Reponse(indA, indD);
   if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
