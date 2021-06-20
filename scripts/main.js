@@ -41,6 +41,14 @@ function Reponse(A, D) {
   }
 }
 
+
+function rerandom() {
+  let indA = getRandomInt(18);
+  let indD = getRandomInt(18);
+  typeA.setAttribute("src", "images/" + L[indA]);
+  typeD.setAttribute("src", "images/" + L[indD]);
+
+
 function clic0() {
   Reponse(indA, indD);
   if (Rep == 'Inefficace') {
@@ -51,6 +59,7 @@ function clic0() {
     score = score - 2;
   }
   Score.textContent = "Score" + String(score);
+  rerandom();
 }
 
 
@@ -64,6 +73,7 @@ function clic05() {
     score = score - 2;
   }
   Score.textContent = "Score" + String(score);
+  rerandom();
 }
 
 
@@ -78,6 +88,7 @@ function clic1() {
     score = score - 2;
   }
   Score.textContent = "Score" + String(score);
+  rerandom();
 }
 
 
@@ -92,4 +103,5 @@ function clic2() {
     score = score - 2;
   }
   Score.textContent = "Score" + String(score);
+  rerandom();
 }
