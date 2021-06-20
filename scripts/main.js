@@ -47,7 +47,7 @@ function rerandom() {
   let indD = getRandomInt(18);
   typeA.setAttribute("src", "images/" + L[indA]);
   typeD.setAttribute("src", "images/" + L[indD]);
-
+}
 
 function clic0() {
   Reponse(indA, indD);
