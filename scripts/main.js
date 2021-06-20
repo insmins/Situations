@@ -1,5 +1,6 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Pokemon situations';
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -12,5 +13,12 @@ function getRandomInt(max) {
    L.push(String(i) + ".png");
  }
 console.log(L);
+
+let typeA = document.getElementById("imgA");
+let typeD = document.getElementById("imgD");
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
+typeA.setAttribute("src", L[indA]);
+typeD.setAttribute("src", L[indD]);
+
+
