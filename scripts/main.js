@@ -16,6 +16,11 @@ console.log(L);
 
 let typeA = document.getElementById("imgA");
 let typeD = document.getElementById("imgD");
+
+let ancienne = document.getElementById("rep");
+let Score = document.getElementById("score");
+let score = 0
+
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
 typeA.setAttribute("src", "images/" + L[indA]);
@@ -39,4 +44,52 @@ function Reponse(A, D) {
 function clic0() {
   E = Reponse(indA, indD);
   if E == 'Inefficace' {
-    
+    ancienne.textContent = "Oui";
+    score = score + 1;
+  } else {
+    ancienne.textContent = "Non ! La réponse était : Inefficace";
+    score = score - 2;
+  }
+  Score.textContent = String(score);
+}
+
+
+function clic05() {
+  E = Reponse(indA, indD);
+  if E == 'Peu efficace' {
+    ancienne.textContent = "Oui";
+    score = score + 1;
+  } else {
+    ancienne.textContent = "Non ! La réponse était : Peu efficace";
+    score = score - 2;
+  }
+  Score.textContent = String(score);
+}
+
+
+
+function clic1() {
+  E = Reponse(indA, indD);
+  if E == 'Efficace' {
+    ancienne.textContent = "Oui";
+    score = score + 1;
+  } else {
+    ancienne.textContent = "Non ! La réponse était : Efficace";
+    score = score - 2;
+  }
+  Score.textContent = String(score);
+}
+
+
+
+function clic05() {
+  E = Reponse(indA, indD);
+  if E == 'Très efficace' {
+    ancienne.textContent = "Oui";
+    score = score + 1;
+  } else {
+    ancienne.textContent = "Non ! La réponse était : Très efficace";
+    score = score - 2;
+  }
+  Score.textContent = String(score);
+}
