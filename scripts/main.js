@@ -36,5 +36,7 @@ function Reponse(A, D) {
   }
 }
 
-Reponse(indA, indD);
-console.log(Rep);
+function clic0() {
+  E = Reponse(indA, indD);
+  if E == 'Inefficace' {
+    
