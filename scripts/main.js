@@ -6,10 +6,10 @@ function getRandomInt(max) {
  alert(String(getRandomInt(10)));
   
   
- let Rep = 0
- let L = []
+ let Rep = 0;
+ let L = [];
  for(let i=0; i<18; i=i+1) {
-   L.push(String(i) + ".png")
+   L.push(String(i) + ".png");
  }
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
