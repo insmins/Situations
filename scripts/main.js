@@ -11,5 +11,6 @@ function getRandomInt(max) {
  for(let i=0; i<18; i=i+1) {
    L.push(String(i) + ".png");
  }
+console.log(L);
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
