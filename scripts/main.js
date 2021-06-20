@@ -17,9 +17,9 @@ console.log(L);
 let typeA = document.getElementById("imgA");
 let typeD = document.getElementById("imgD");
 
-let ancienne = document.getElementById("rep");
-let Score = document.getElementById("score");
-let score = 0
+var ancienne = document.getElementById("rep");
+var Score = document.getElementById("score");
+var score = 0;
 
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
