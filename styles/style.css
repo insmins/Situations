@@ -40,8 +40,8 @@ h1 {
   text-shadow: 3px 3px 1px blue;
 }
 
-img {
-  display: inline-block;
+img#nor {
+  display: block;
   margin: 0 auto;
 }
 
