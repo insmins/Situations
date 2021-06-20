@@ -18,6 +18,7 @@ p, li {
 
 p#att, p#rep, p#score {
   display: inline-block;
+  margin: auto 30 auto 30;
 }
 
 
