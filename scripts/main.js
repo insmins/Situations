@@ -18,7 +18,7 @@ let typeA = document.getElementById("imgA");
 let typeD = document.getElementById("imgD");
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
-typeA.setAttribute("src", L[indA]);
-typeD.setAttribute("src", L[indD]);
+typeA.setAttribute("src", "images/" + L[indA]);
+typeD.setAttribute("src", "images/" + L[indD]);
 
 
