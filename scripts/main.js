@@ -47,7 +47,7 @@ function clic0() {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : Inefficace";
+    ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
   Score.textContent = String(score);
@@ -60,7 +60,7 @@ function clic05() {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : Peu efficace";
+    ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
   Score.textContent = String(score);
@@ -74,7 +74,7 @@ function clic1() {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : Efficace";
+    ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
   Score.textContent = String(score);
@@ -88,7 +88,7 @@ function clic05() {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : Très efficace";
+    ancienne.textContent = "Non ! La réponse était : " + Rep;
     score = score - 2;
   }
   Score.textContent = String(score);
