@@ -27,6 +27,7 @@ typeA.setAttribute("src", "images/" + L[indA]);
 typeD.setAttribute("src", "images/" + L[indD]);
 
 function Reponse(A, D) {
+  let Rep = 0;
   if (((A == 0 || A == 1) && D == 7) || (A == 3 && D == 8) || (A == 4 && D == 2) || (A == 7 && D == 0) || (A == 12 && D == 4) || (A == 13 && D == 16) || (A == 15 && D == 17)) {
     Rep = "Inefficace";
   }
@@ -39,6 +40,7 @@ function Reponse(A, D) {
   else {
     Rep = "Efficace";
   }
+  return Rep;
 }
 
 
@@ -50,12 +52,12 @@ function rerandom() {
 }
 
 function clic0() {
-  Reponse(indA, indD);
-  if (Rep == 'Inefficace') {
+  let E = Reponse(indA, indD);
+  if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : " + Rep;
+    ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
   }
   Score.textContent = "Score : " + String(score);
@@ -64,12 +66,12 @@ function clic0() {
 
 
 function clic05() {
-  Reponse(indA, indD);
-  if (Rep == 'Peu efficace') {
+  let E = Reponse(indA, indD);
+  if (E == 'Peu efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : " + Rep;
+    ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
   }
   Score.textContent = "Score : " + String(score);
@@ -79,12 +81,12 @@ function clic05() {
 
 
 function clic1() {
-  Reponse(indA, indD);
-  if (Rep == 'Efficace') {
+  let E = Reponse(indA, indD);
+  if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : " + Rep;
+    ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
   }
   Score.textContent = "Score : " + String(score);
@@ -94,12 +96,12 @@ function clic1() {
 
 
 function clic2() {
-  Reponse(indA, indD);
-  if (Rep == 'Très efficace') {
+  let E = Reponse(indA, indD);
+  if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
-    ancienne.textContent = "Non ! La réponse était : " + Rep;
+    ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
   }
   Score.textContent = "Score : " + String(score);
