@@ -5,5 +5,10 @@ function getRandomInt(max) {
   
  alert(String(getRandomInt(10)));
   
+  
+ let Rep = 0
+ let L = []
+ for(i=0; i<18; i=i+1) {
+ }
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
