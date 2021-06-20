@@ -40,6 +40,7 @@ function Reponse(A, D) {
   else {
     Rep = "Efficace";
   }
+  console.log(Rep);
   return Rep;
 }
 
