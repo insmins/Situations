@@ -4,7 +4,7 @@ myHeading.textContent = 'Pokemon situations';
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
- alert(String(getRandomInt(10)));
+ 
   
   
  var Rep = 0;
@@ -12,7 +12,7 @@ function getRandomInt(max) {
  for(let i=0; i<18; i=i+1) {
    L.push(String(i) + ".png");
  }
-console.log(L);
+
 
 let typeA = document.getElementById("imgA");
 let typeD = document.getElementById("imgD");
