@@ -16,7 +16,7 @@ p, li {
   letter-spacing: 1px;
 }
 
-p#att, p#rep, p#score {
+p#att {
   display: inline-block;
   margin: auto 30 auto 30;
 }
