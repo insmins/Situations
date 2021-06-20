@@ -82,7 +82,7 @@ function clic1() {
 
 
 
-function clic05() {
+function clic2() {
   E = Reponse(indA, indD);
   if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
