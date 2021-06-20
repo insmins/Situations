@@ -8,7 +8,8 @@ function getRandomInt(max) {
   
  let Rep = 0
  let L = []
- for(i=0; i<18; i=i+1) {
+ for(let i=0; i<18; i=i+1) {
+   L.push(String(i) + ".png")
  }
  let indA = getRandomInt(18);
  let indD = getRandomInt(18);
