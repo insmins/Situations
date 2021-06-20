@@ -47,10 +47,10 @@ img#nor {
 
 img#imgA {
   display: inline-block;
-  margin: 10px 200px 10px 0;
+  margin: 10px 100px 10px 0;
 }
 
 img#imgD {
   display: inline-block;
-  margin: 10px 0 10px 200px;
+  margin: 10px 0 10px 100px;
 }
