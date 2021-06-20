@@ -36,4 +36,5 @@ function Reponse(A, D) {
   }
 }
 
+Reponse(indA, indD);
 console.log(Rep);
