@@ -43,7 +43,7 @@ function Reponse(A, D) {
 
 function clic0() {
   E = Reponse(indA, indD);
-  if E == 'Inefficace' {
+  if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
@@ -56,7 +56,7 @@ function clic0() {
 
 function clic05() {
   E = Reponse(indA, indD);
-  if E == 'Peu efficace' {
+  if (E == 'Peu efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
@@ -70,7 +70,7 @@ function clic05() {
 
 function clic1() {
   E = Reponse(indA, indD);
-  if E == 'Efficace' {
+  if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
@@ -84,7 +84,7 @@ function clic1() {
 
 function clic05() {
   E = Reponse(indA, indD);
-  if E == 'Très efficace' {
+  if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
   } else {
