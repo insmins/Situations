@@ -26,7 +26,7 @@ typeA.setAttribute("src", "images/" + L[indA]);
 typeD.setAttribute("src", "images/" + L[indD]);
 
 function Reponse(A, D) {
-  var Rep = 0;
+  var Rep;
   if (((A == 0 || A == 1) && D == 7) || (A == 3 && D == 8) || (A == 4 && D == 2) || (A == 7 && D == 0) || (A == 12 && D == 4) || (A == 13 && D == 16) || (A == 15 && D == 17)) {
     Rep = "Inefficace";
   }
