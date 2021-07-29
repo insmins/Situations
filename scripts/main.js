@@ -5,7 +5,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
  
-  
+var E = "placeholder";
   
  let L = [];
  for(let i=0; i<18; i=i+1) {
@@ -13,15 +13,15 @@ function getRandomInt(max) {
  }
 
 
-let typeA = document.getElementById("imgA");
-let typeD = document.getElementById("imgD");
+var typeA = document.getElementById("imgA");
+var typeD = document.getElementById("imgD");
 
 var ancienne = document.getElementById("rep");
 var Score = document.getElementById("score");
 var score = 0;
 
- let indA = getRandomInt(18);
- let indD = getRandomInt(18);
+ var indA = getRandomInt(18);
+ var indD = getRandomInt(18);
 typeA.setAttribute("src", "images/" + L[indA]);
 typeD.setAttribute("src", "images/" + L[indD]);
 
@@ -40,19 +40,20 @@ function Reponse(A, D) {
     Rep = "Efficace";
   }
   console.log(Rep);
+  console.log('test');
   return Rep;
 }
 
 
 function rerandom() {
-  let indA = getRandomInt(18);
-  let indD = getRandomInt(18);
+  indA = getRandomInt(18);
+  indD = getRandomInt(18);
   typeA.setAttribute("src", "images/" + L[indA]);
   typeD.setAttribute("src", "images/" + L[indD]);
 }
 
 function clic0() {
-  var E = Reponse(indA, indD);
+  E = Reponse(indA, indD);
   if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -66,7 +67,7 @@ function clic0() {
 
 
 function clic05() {
-  var E = Reponse(indA, indD);
+  E = Reponse(indA, indD);
   if (E == 'Peu efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -81,7 +82,7 @@ function clic05() {
 
 
 function clic1() {
-  var E = Reponse(indA, indD);
+  E = Reponse(indA, indD);
   if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
@@ -96,7 +97,7 @@ function clic1() {
 
 
 function clic2() {
-  var E = Reponse(indA, indD);
+  E = Reponse(indA, indD);
   if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
