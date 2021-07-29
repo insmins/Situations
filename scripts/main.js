@@ -60,11 +60,11 @@ function clic0() {
   if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
-    reussites = reussites + 1;
+	reussites = reussites + 1;
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
-    echecs = echecs + 1;
+	echecs = echecs + 1;
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
@@ -76,11 +76,11 @@ function clic05() {
   if (E == 'Peu efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
-    reussites = reussites + 1;
+	reussites = reussites + 1;
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
-    echecs = echecs + 1;
+	echecs = echecs + 1;
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
@@ -93,12 +93,12 @@ function clic1() {
   if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
-    reussites = reussites + 1;
+	reussites = reussites + 1;
 	
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
-	  echecs = echecs + 1;
+	echecs = echecs + 1;
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
@@ -111,11 +111,11 @@ function clic2() {
   if (E == 'Très efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
-	  reussites = reussites + 1;
+	reussites = reussites + 1;
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
-	  echecs = echecs + 1;
+	echecs = echecs + 1;
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
