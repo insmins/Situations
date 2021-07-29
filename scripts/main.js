@@ -20,6 +20,9 @@ var ancienne = document.getElementById("rep");
 var Score = document.getElementById("score");
 var score = 0;
 
+var reussites = 0;
+var echecs = 0;
+
  var indA = getRandomInt(18);
  var indD = getRandomInt(18);
 typeA.setAttribute("src", "images/" + L[indA]);
@@ -57,9 +60,11 @@ function clic0() {
   if (E == 'Inefficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
+	reussites = reussites + 1;
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
+	echecs = echecs + 1;
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
@@ -86,6 +91,7 @@ function clic1() {
   if (E == 'Efficace') {
     ancienne.textContent = "Oui";
     score = score + 1;
+	
   } else {
     ancienne.textContent = "Non ! La réponse était : " + E;
     score = score - 2;
@@ -107,4 +113,9 @@ function clic2() {
   }
   Score.textContent = "Score : " + String(score);
   rerandom();
+}
+
+
+function stats() {
+	alert("Statistiques \n Réussites: " + String(reussites) + " \n Echecs: " + String(echecs) + " \n Total: " + String(reussites + echecs));
 }
